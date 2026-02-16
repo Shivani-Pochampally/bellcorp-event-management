@@ -1,0 +1,92 @@
+.dashboard {
+  padding-bottom: 2rem;
+}
+
+.dashboard-title {
+  font-family: var(--font-display);
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.dashboard-subtitle {
+  color: var(--text-muted);
+  margin-bottom: 2rem;
+}
+
+.dashboard-error {
+  color: var(--danger);
+  padding: 1rem;
+}
+
+.dashboard-section {
+  margin-bottom: 2rem;
+}
+
+.dashboard-section h2 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: var(--text);
+}
+
+.dashboard-empty {
+  color: var(--text-muted);
+  padding: 1rem 0;
+}
+
+.dashboard-list {
+  list-style: none;
+}
+
+.dashboard-item {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.dashboard-item a {
+  color: var(--text);
+  font-weight: 500;
+}
+
+.dashboard-item a:hover {
+  color: var(--accent);
+}
+
+.dashboard-item-title {
+  flex: 1;
+  min-width: 0;
+}
+
+.dashboard-item-meta {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  width: 100%;
+  margin-top: 0.25rem;
+}
+
+.dashboard-item-past {
+  opacity: 0.85;
+}
+
+.dashboard-item-badge {
+  font-size: 0.75rem;
+  padding: 0.2rem 0.5rem;
+  background: var(--bg-elevated);
+  border-radius: 6px;
+  color: var(--text-muted);
+}
+
+.dashboard-count {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin-bottom: 0.75rem;
+}
